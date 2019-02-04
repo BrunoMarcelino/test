@@ -1,53 +1,65 @@
-<!doctype html>
 <html>
-	<head>
-		<title>test</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="" href="style.css">
-	</head>
-	<body>
-		<header>
-			<div class="head">
-				<label><a href="#">HOME</a></label>
-				<label><a href="#">ARTICLE</a></label>
-				<label><a href="for.html">Inscription</a></label>
-			</div>
-		</header>
-		
 
-		<section>
-			<div class="sectionBDB">
-				<div class="section1">
+<head>
+    <title>Page bootstrap</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
 
-				</div>
-				<div class="sectionBDB1">
-					<div class="section2">
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-					</div>
-					<div class="section3">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#colonne1">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#foot">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
 
-					</div>
-				</div>
-			</div>
-		</section>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="colonne1">
 
-		<footer>
-			<div class = "footer">
-				<form>
+                </div>
+            </div>
 
-					
-					<input class = 'input' type="text" name="nom" placeholder="nom"><br>
+            <div class="col-md-6">
+                <section id="section1">
 
-					
-					<input class = 'input'  type="text" name="prenom" placeholder="prenom"><br>
+                </section>
+                <section id="section2">
 
-					
-					<input class = 'input'  type="text" name="email" placeholder="e-mail"><br>
+                </section>
+            </div>
+        </div>
+        <footer id="foot">
+            <p>
+                <a href="#menu">copyright@sayna.2019</a>
+            </p>
+        </footer>
+    </div>
 
-					<button>Demander</button>
-				</form>
-			</div>
-		</footer>
-		<img src="monimage.png">
-	</body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
 </html>
